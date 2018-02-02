@@ -1,3 +1,4 @@
+# NOTE: appveyor is HIGHLY SENSITIVE to tabs. Think Python sensitive!!!
 # Test against this version of Node.js
 environment:
     matrix:
