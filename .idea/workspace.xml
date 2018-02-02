@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97cc2397-4c3d-49c9-8adc-b26d32988ade" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/appveyor.yml" afterPath="$PROJECT_DIR$/appveyor.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/api/userApi.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/buildScripts/srcServer.js" afterPath="$PROJECT_DIR$/buildScripts/srcServer.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +21,21 @@
       <file leaf-file-name="srcServer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buildScripts/srcServer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="504">
+              <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userApi.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/api/userApi.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -38,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appveyor.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="appveyor.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appveyor.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -100,9 +112,10 @@
         <option value="$PROJECT_DIR$/buildScripts/startMessage.js" />
         <option value="$PROJECT_DIR$/.nsprc" />
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/buildScripts/srcServer.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/appveyor.yml" />
+        <option value="$PROJECT_DIR$/buildScripts/srcServer.js" />
+        <option value="$PROJECT_DIR$/src/api/userApi.js" />
       </list>
     </option>
   </component>
@@ -160,6 +173,12 @@
               <item name="JSDevKit" type="b2602c69:ProjectViewProjectNode" />
               <item name="JSDevKit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSDevKit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSDevKit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -220,12 +239,12 @@
       <workItem from="1517509054305" duration="16108000" />
       <workItem from="1517538736589" duration="726000" />
       <workItem from="1517539784931" duration="621000" />
-      <workItem from="1517540657545" duration="2013000" />
+      <workItem from="1517540657545" duration="3688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29517000" />
+    <option name="totallyTimeSpent" value="31192000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -315,13 +334,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.dev.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -655,16 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buildScripts/srcServer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -672,14 +674,6 @@
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,6 +697,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="71" lean-forward="false" selection-start-line="0" selection-start-column="71" selection-end-line="0" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildScripts/srcServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/userApi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
           <folding />
         </state>
       </provider>
