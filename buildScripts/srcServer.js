@@ -28,7 +28,7 @@ app.get('/users', function(req, res){
     ]);
 });
 
-app.listen(port, function(err){
+app.listen(port, err => {
     if(err){ console.log(err); }
     else { open('http://localhost:' + port); }
 });

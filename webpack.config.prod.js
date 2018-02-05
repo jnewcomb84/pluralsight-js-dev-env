@@ -5,9 +5,9 @@ export default {
     debug: true,
     devtool: 'source-map',
     noInfo: false,
-    entry: [
-        path.resolve(__dirname, 'src/index')
-    ],
+    entry: {
+        pmain: path.resolve(__dirname, 'src/index')
+    },
     target: 'web',
     output: {
         path: path.resolve(__dirname, 'dist'),
